@@ -73,16 +73,33 @@ body {
 .hero {
   background-color: hsl(256, 26%, 20%);
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   color: white;
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: auto;
+  margin-bottom: 15rem;
 }
 
 .left-col {
-  padding-left: 20rem;
-  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-right: 3rem;
+  margin-top: 5rem;
+}
+
+.line-t {
+  content: "";
+  display: block;
+  width: 20%;
+  border-top: 1px solid rgb(255, 255, 255);
+  padding: 4rem 0 0 0;
+}
+
+.line-tb {
+  content: "";
+  display: block;
+  width: 10%;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 4rem 0 0 0;
 }
 
 .left-col h1 {
@@ -108,6 +125,47 @@ body {
 }
 
 .right-col {
-  margin: auto;
-  align-items: center;
+  margin-top: 5rem;
 }
+
+.hero-img {
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+
+.left-blob {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.right-blob {
+  position: absolute;
+  right: 0;
+  top: 8%;
+  width: 20%;
+}
+
+.different {
+  width: 100%;
+  height: 50vh;
+  padding-left: 10rem;
+  padding-top: 4rem;
+}
+
+.different h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.diff-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 85%;
+  gap: 3rem;
+}
+
+
