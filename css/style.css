@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+/* - Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
+
+### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%) */
+
+.primary-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+}
+
+.primary-nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0 10rem 0 0;
+}
+
+.primary-nav li {
+  padding: 0 1rem;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: hsl(256, 26%, 20%);
+  padding: 0 10rem;
+}
+
+.view-plans {
+  border: 2px solid hsl(256, 26%, 20%);
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+}
+
+.h-font {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.b-font {
+  font-family: "Karla", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.hero {
+  background-color: hsl(256, 26%, 20%);
+  width: 100%;
+  height: 50vh;
+  color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+}
+
+.left-col {
+  padding-left: 20rem;
+  padding-top: 10rem;
+}
+
+.left-col h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.left-col h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 2rem;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+}
+
+.left-col h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+}
+
+.right-col {
+  margin: auto;
+  align-items: center;
+}
