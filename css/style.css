@@ -56,6 +56,11 @@ a {
   font-weight: bold;
 }
 
+.view-plans:hover {
+  color: white;
+  background-color: hsl(256, 26%, 20%);
+}
+
 .h-font {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
@@ -126,6 +131,17 @@ a {
   font-weight: 400;
   line-height: 1.5rem;
   padding-top: 1rem;
+}
+
+.left-col a {
+  text-decoration: none;
+  color: white;
+}
+
+.left-col h2:hover,
+a:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
 }
 
 .right-col {
@@ -217,6 +233,21 @@ a {
   border: 2px solid white;
   padding: 0.5rem 1.5rem;
   color: white;
+  z-index: 3;
+}
+
+.find-container h2:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+}
+
+.find-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.find-container a:hover {
+  color: hsl(256, 26%, 20%);
 }
 
 .find-container img {
@@ -265,6 +296,10 @@ footer {
   font-weight: 700;
   font-size: 1rem;
   z-index: 1;
+}
+
+.footer-section a {
+  color: hsl(256, 26%, 20%);
 }
 
 .foot-head {
